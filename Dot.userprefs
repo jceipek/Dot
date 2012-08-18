@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/FollowMouse.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editable.js">
     <Files>
-      <File FileName="Assets/FollowMouse.js" Line="14" Column="18" />
+      <File FileName="Assets/FollowMouse.js" Line="14" Column="2" />
+      <File FileName="Assets/Editable.js" Line="16" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

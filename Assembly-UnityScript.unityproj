@@ -46,6 +46,8 @@
   <ItemGroup>
      <Compile Include="Assets\Editable.js" />
      <Compile Include="Assets\FollowMouse.js" />
+     <Compile Include="Assets\Loader.js" />
+     <Compile Include="Assets\jsonparse\JSONParse.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
