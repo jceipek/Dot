@@ -45,8 +45,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editable.js" />
+     <Compile Include="Assets\Editor Entities\Loader\Loader.js" />
+     <Compile Include="Assets\Editor Entities\Saver\Saver.js" />
      <Compile Include="Assets\FollowMouse.js" />
-     <Compile Include="Assets\Loader.js" />
      <Compile Include="Assets\jsonparse\JSONParse.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

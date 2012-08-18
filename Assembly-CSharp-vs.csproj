@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{038787AA-A25A-609E-0384-9138EE8E4E79}</ProjectGuid>
+	<ProjectGuid>{587800AC-D070-FFA4-05D4-A817743695A8}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,11 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editable.js" />
-     <Compile Include="Assets\Editor Entities\Loader\Loader.js" />
-     <Compile Include="Assets\Editor Entities\Saver\Saver.js" />
-     <Compile Include="Assets\FollowMouse.js" />
-     <Compile Include="Assets\jsonparse\JSONParse.js" />
+     <Compile Include="Assets\DebugConsole.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

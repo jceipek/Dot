@@ -4,10 +4,18 @@ import System.IO;
 import System.Collections.Generic;
 
 function Start () {
+
+	var levelLocation;
 	
+	if (Application.isEditor) {
+		levelLocation = "Levels/";
+	} else {
+		levelLocation = "../Levels/";
+	}
+
     try {
         // Create an instance of StreamReader to read from a file.
-        var sr = new StreamReader("demolvl.json");
+        var sr = new StreamReader(levelLocation + "demolvl.json");
 
         // Read and display lines from the file until the end of the file is reached.
         var lines = sr.ReadToEnd();
@@ -27,8 +35,8 @@ function Start () {
 
     catch (e) {
         // Let the user know what went wrong.
-        print("The file could not be read:");
-        print(e.Message);
+        Debug.Log("The file could not be read:");
+        Debug.Log(e.Message);
     }
     
 
