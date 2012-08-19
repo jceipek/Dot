@@ -1,6 +1,7 @@
 #pragma strict
 
 var editable : boolean;
+var objectType : String;
 
 function Start () {
 
