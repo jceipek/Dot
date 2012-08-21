@@ -8,7 +8,11 @@ function Start () {
 }
 
 function Update () {
-
+	if (Input.GetButtonDown("Duplicate")) {
+	
+	} else if (Input.GetButtonDown("Choose Object")) {
+	
+	}
 }
 
 function OnMouseDown () {
@@ -17,3 +21,6 @@ function OnMouseDown () {
 		followMouse.enabled = !followMouse.enabled;
 	}
 }
+
+
+

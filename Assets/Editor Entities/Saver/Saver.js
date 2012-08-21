@@ -46,7 +46,7 @@ function saveAll() {
 }
 
 function Update () {
-  if (Input.GetButtonDown ("Fire1")) {
+  if (Input.GetButtonDown("Fire1")) {
   	saveAll();
   }
 }
