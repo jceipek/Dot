@@ -44,12 +44,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editable.js" />
      <Compile Include="Assets\Editor Entities\Loader\Loader.js" />
      <Compile Include="Assets\Editor Entities\Saver\Saver.js" />
-     <Compile Include="Assets\FollowMouse.js" />
      <Compile Include="Assets\QuaternionExperiment.js" />
-     <Compile Include="Assets\jsonparse\JSONParse.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-Boo-firstpass.booproj">
+      <Project>{A3123DA4-621D-167E-B0D5-8F0AC3DA924B}</Project>      <Name>Assembly-Boo-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{672A299D-436A-CC7E-FE56-DA682A887C2E}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

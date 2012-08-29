@@ -1,7 +1,7 @@
 #pragma strict
 
 //var theta = Mathf.PI/8.0f;
-var c : float;
+//var c : float;
 var theta : float;
 
 var x : float;
@@ -29,7 +29,7 @@ function Update () {
 	
 	a.Normalize();
 	b.Normalize();
-	
+	// Quaternion(w,x,y,z)
 	var q1 = new Quaternion(Mathf.Cos(0.5*theta), a.x * Mathf.Sin(0.5*theta), a.y * Mathf.Sin(0.5*theta), a.z * Mathf.Sin(0.5*theta));
 	
 	var q2 = new Quaternion(Mathf.Cos(0.5*theta), b.x * Mathf.Sin(0.5*theta), b.y * Mathf.Sin(0.5*theta), b.z * Mathf.Sin(0.5*theta));
