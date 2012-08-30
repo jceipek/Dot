@@ -1,17 +1,16 @@
 import UnityEngine
+//import Boo.Lang.List;
 
 class Saver (MonoBehaviour): 
 	output as string
-	//topLevel = dict()
+	topLevel = Hash()
 
-	def saveAll():
-		pass
-	/*
+	def saveAll():	
 		topLevel["name"] = "No Name"
 		topLevel["entities"] = List()
 		editableEntities = FindObjectsOfType(Editable)
 		for entity in editableEntities:
-			newEnt = Hashtable()
+			newEnt = Hash()
 			newEnt["type"] = entity.objectType
 			newEnt["pos"] = List()
 			(newEnt["pos"] as List).Push(entity.transform.position.x)
@@ -25,8 +24,8 @@ class Saver (MonoBehaviour):
 		output += "  \"entities\" : \n"
 		output += "  [\n"
 		
-		for entityIndex in range(0,entityIndex < (topLevel["entities"] as List).length):
-			entity = (topLevel["entities"] as List)[entityIndex] as dict
+		for (entityIndex as int) in range(0,entityIndex < (topLevel["entities"] as List).length):
+			entity = (topLevel["entities"] as List)[entityIndex] as List
 			pos = entity["pos"] as List
 			output += "    {\n"
 			output += "      \"type\" : \""+entity["type"]+"\",\n"
@@ -41,7 +40,7 @@ class Saver (MonoBehaviour):
 	
 		Debug.Log(output);		
 		
-	*/
+	
 			
 	def Update():
 		if (Input.GetButtonDown("Fire1")):

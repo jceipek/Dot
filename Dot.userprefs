@@ -1,11 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor Entities/Loader/Loader.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Saver.boo">
     <Files>
       <File FileName="Assets/Standard Assets/Editable.boo" Line="34" Column="50" />
       <File FileName="Assets/Standard Assets/FollowMouse.boo" Line="1" Column="1" />
       <File FileName="Assets/Editor Entities/Saver/Saver.js" Line="1" Column="1" />
       <File FileName="Assets/Editor Entities/Loader/Loader.js" Line="21" Column="36" />
+      <File FileName="Assets/Standard Assets/Saver.boo" Line="35" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
