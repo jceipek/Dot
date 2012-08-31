@@ -24,14 +24,13 @@ class Saver (MonoBehaviour):
 		output += "  \"entities\" : \n"
 		output += "  [\n"
 		
-		for (entityIndex as int) in range(0,entityIndex < (topLevel["entities"] as List).length):
-			entity = (topLevel["entities"] as List)[entityIndex] as List
+		for entityIndex as int, entity as Hash in enumerate(topLevel["entities"] as List):
 			pos = entity["pos"] as List
 			output += "    {\n"
 			output += "      \"type\" : \""+entity["type"]+"\",\n"
 			output += "      \"pos\" : [" + pos[0] + ", " + pos[1] + ", " + pos[2] + "]\n"
 			output += "    }"
-			if entityIndex < (topLevel["entities"] as List).length - 1:
+			if entityIndex < len(topLevel["entities"] as List) - 1:
 				output += ","
 			output += "\n"
 		

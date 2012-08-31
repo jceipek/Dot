@@ -45,7 +45,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor Entities\Loader\Loader.js" />
-     <Compile Include="Assets\Editor Entities\Saver\Saver.js" />
      <Compile Include="Assets\QuaternionExperiment.js" />
   </ItemGroup>
   <ItemGroup>
